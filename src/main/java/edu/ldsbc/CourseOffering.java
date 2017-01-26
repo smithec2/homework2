@@ -3,6 +3,7 @@ package edu.ldsbc;
 import java.time.LocalTime;
 
 /**
+ * @author
  * Created by XPS on 1/25/2017.
  */
 public class CourseOffering {
@@ -14,6 +15,7 @@ public class CourseOffering {
     private LocalTime time;
     private DayEnum days;
     private int capacity;
+
 
     public int getCourseNumber() {
         return courseNumber;
